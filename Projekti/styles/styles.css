@@ -1,0 +1,81 @@
+/*Otettu vaan joku fontti randomisti*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fdffcf;
+  font-size: 80%;
+  font-family: "Poppins", arial;
+}
+header {
+  background-color: #6536e6;
+  text-align: center;
+  height: 20em;
+}
+h1 {
+  text-align: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #ffffff;
+  padding: 4em;
+}
+/* Nav styles */
+section.nav-container {
+  font-size: 80%;
+  /*Tekee sen, että navigaatiopalkki pysyy ylhäällä*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  background-color: #27201c;
+}
+a {
+  text-decoration: none;
+}
+nav ul li a:link,
+nav ul li a:visited {
+  color: #ffffff;
+}
+
+nav ul li a:focus,
+nav ul li a:hover,
+nav ul li a:active {
+  color: rgb(255, 14, 14);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0.3em;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+nav ul li a {
+  display: block;
+  border: 0.5px solid;
+  border-radius: 0.3em;
+  padding: 0.5em 0.5em;
+  margin: 0.4em;
+}
+footer {
+  font-family: "Poppins", arial;
+  background-color: #6536e6;
+}
+/*Lisätty breakpointteja valmiiksi*/
+@media only screen and (min-width: 800px) {
+}
+@media only screen and (min-width: 1050px) {
+}
+@media only screen and (min-width: 1250px) {
+}
