@@ -5,7 +5,7 @@
   margin: 0;
 }
 body {
-  background-color: #fdffcf;
+  background-color: #d1d1d1;
   font-size: 80%;
   font-family: "Poppins", arial;
 }
@@ -22,6 +22,12 @@ h1 {
   font-size: 2em;
   color: #ffffff;
   padding: 4em;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  padding: 1em;
 }
 /* Nav styles */
 section.nav-container {
@@ -97,15 +103,49 @@ nav ul li a {
   padding: 0.5em 0.5em;
   margin: 0.4em;
 }
+.meistä {
+  text-align: center;
+  padding: 3em;
+  background-color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-top: 2em;
+}
+
+.aukiolo {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.eläimet {
+  text-align: center;
+  padding: 2em 3.5em 1em 3.5em;
+  background-color: #ffffff;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-top: 3em;
+  padding: 2em;
+}
 
 footer {
   font-family: "Poppins", arial;
   background-color: #6536e6;
+  text-align: center;
 }
 /*Lisätty breakpointteja valmiiksi*/
 @media only screen and (min-width: 800px) {
 }
 @media only screen and (min-width: 1050px) {
+  .meistä {
+    width: 60%;
+  }
+  .eläimet {
+    width: 60%;
+  }
 }
 @media only screen and (min-width: 1250px) {
 }
