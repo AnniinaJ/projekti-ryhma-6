@@ -143,6 +143,12 @@ nav ul li a {
   margin-top: 2em;
 }
 
+.eläinkuvat {
+  max-width: 100%;
+}
+
+
+
 footer {
   font-family: "Poppins", arial;
   background-color: #6536e6;
