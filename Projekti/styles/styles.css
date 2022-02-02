@@ -10,7 +10,7 @@ body {
   font-family: "Poppins", arial;
 }
 header {
-  background-color: #6536e6;
+  background-color: #694255;
   text-align: center;
   height: 20em;
 }
@@ -47,7 +47,7 @@ li.dropdown {
 .dropdown-sisältö {
   display: none;
   position: absolute;
-  background-color: #6144b1;
+  background-color: #443179;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -147,11 +147,9 @@ nav ul li a {
   max-width: 100%;
 }
 
-
-
 footer {
   font-family: "Poppins", arial;
-  background-color: #6536e6;
+  background-color: #694255;
   text-align: center;
 }
 /*Lisätty breakpointteja valmiiksi*/
