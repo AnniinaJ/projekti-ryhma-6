@@ -156,8 +156,38 @@ nav ul li a {
 
   width: 200px;
   max-width: 90%;
+}
+
+
+/* Ruoka- ja tarvikesivujen grid */
+
+.grid-container {
+
+  padding: 2em 3.5em 1em 3.5em;
+  background-color: #ffffff;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-top: 3em;
+  padding: 2em;
+
+  display: grid;
+  align-content: space-evenly;
+
+  /* kapeimmalla näytöllä vain yksi sarake */
+  grid-template-columns: auto;
   
 
+}
+
+.tuote {
+  padding: 2em;
+  text-align: center;
+}
+
+.tuote-kuva {
+  max-width: 150px;
 
 }
 
@@ -178,6 +208,9 @@ footer {
     letter-spacing: 0.3em;
     font-size: 2.5em;
   }
+
+
+
 }
 @media only screen and (min-width: 1050px) {
   .meistä {
@@ -193,6 +226,22 @@ footer {
     padding-top: 6em;
     font-size: 3em;
   }
+
+
+  /* leveämmällä näytöllä kaksi saraketta */
+  .grid-container{
+    grid-template-columns: auto auto;
+  }
+
+
+
 }
 @media only screen and (min-width: 1250px) {
+
+
+  /* leveimmällä näytöllä kolme saraketta */
+  .grid-container{
+    grid-template-columns: auto auto auto;
+  }
+
 }
