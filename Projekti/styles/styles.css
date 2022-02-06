@@ -117,7 +117,7 @@ nav ul li a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3em;
-  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .aukiolo {
@@ -125,7 +125,8 @@ nav ul li a {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-.eläimet, .yhteys {
+.eläimet,
+.yhteys {
   text-align: center;
   padding: 2em 3.5em 1em 3.5em;
   background-color: #ffffff;
@@ -145,23 +146,17 @@ nav ul li a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3em;
-  margin-top: 2em;
 }
 
 .eläinkuvat {
   max-width: 100%;
 }
 
-.palautelomake input, .palautelomake textarea{
-
+.palautelomake input,
+.palautelomake textarea {
   width: 200px;
   max-width: 90%;
-  
-
-
 }
-
-
 
 footer {
   font-family: "Poppins", arial;
