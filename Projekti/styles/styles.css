@@ -156,9 +156,7 @@ nav ul li a {
 .palautelomake textarea {
   width: 200px;
   max-width: 90%;
-<<<<<<< HEAD
 }
-
 
 /* Ruoka- ja tarvikesivujen grid */
 
@@ -179,7 +177,6 @@ nav ul li a {
   /* kapeimmalla näytöllä vain yksi sarake */
   grid-template-columns: auto;
   
-
 }
 
 .tuote {
@@ -190,8 +187,6 @@ nav ul li a {
 .tuote-kuva {
   max-width: 150px;
 
-=======
->>>>>>> 4cab823de4d49d12f33fd71165cc7def4720c3d4
 }
 
 footer {
