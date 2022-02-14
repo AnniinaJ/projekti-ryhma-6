@@ -108,7 +108,17 @@ nav ul li a {
   border-radius: 0.3em;
   padding: 0.5em 0.5em;
   margin: 0.4em;
+
 }
+
+/* kielivalikko */
+
+.lang a{
+  border: 0;
+}
+
+
+
 .meistä {
   text-align: center;
   padding: 3em;
